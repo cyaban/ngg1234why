@@ -1,7 +1,7 @@
 
    self.__uv$config = {
     prefix: "/uv/service/",
-    bare: "https://beta7.apktbg.com/bare/",
+    bare: "https://beta7.apktbg.com/content/",
     encodeUrl: Ultraviolet.codec.xor.encode,
     decodeUrl: Ultraviolet.codec.xor.decode,
     handler: "/uv/uv.handler.js",
