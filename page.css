@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+.cards {
+    margin-left: 10px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cards .p {
+    height: 150px;
+    width: 150px;
+}
+
+.cards .card {
+    margin-left: 30px;
+    margin-bottom: 30px;
+    border-radius: 25px;
+    box-shadow: 4px 3px 8px 1px #96969633;
+  	-webkit-box-shadow: 4px 3px 8px 1px #96969633;
+    display: flex;
+    align-items: flex-end;
+    background-size: cover;
+    background-position: center;
+    background-color: white;
+}
+
+.cards .card h2 {
+    margin-left: 18px;
+    margin-bottom: 18px;
+    border-radius: 15px;
+    margin-right: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #2e2e2e;
+    background-color: #eeeeeec9;
+    box-shadow: 4px 3px 8px 1px #6d6d6d33;
+  	-webkit-box-shadow: 4px 3px 8px 1px #6d6d6d33;
+}
+
+
+.cards .android{
+    background-image: url("cloud/android.jpg");
+}
+.cards .roblox{
+    background-image: url("cloud/roblox.JPG");
+}
+.cards .stumble{
+    background-image: url("cloud/stumble.jpg");
+}
+.cards .callof{
+    background-image: url("cloud/callof.JPG");
+}
+.cards .minecraft{
+    background-image: url("cloud/minecraft.JPG");
+}
+.cards .render{
+    background-image: url("apps/render.jpg");
+}
+.cards .gitlab{
+    background-image: url("apps/gitlab.png");
+}
+.cards .replit{
+    background-image: url("apps/replit.png");
+}
+.cards .bing{
+    background-image: url("apps/bing.png");
+}
+.cards .number{
+    background-image: url("apps/number.jpg");
+}
+.cards .aptoide{
+    background-image: url("cloud/aptoide.jpg");
+}
+.cards .pubg{
+    background-image: url("cloud/pubg.jpg");
+}
+.cards .block{
+    background-image: url("cloud/block.jpg");
+}
+
+.cards .among{
+    background-image: url("cloud/among.jpeg");
+}
+.cards .cut{
+    background-image: url("cloud/cut.png");
+}
+.cards .cut2{
+    background-image: url("cloud/cut2.png");
+}
+.cards .fifa{
+    background-image: url("cloud/fifa.jpg");
+}
+.cards .granny{
+    background-image: url("cloud/granny.png");
+}
+.cards .raid{
+    background-image: url("cloud/raid.jpeg");
+}
+.cards .pixel3d{
+    background-image: url("cloud/pixel.jpeg");
+}
+.cards .statesurvi{
+    background-image: url("cloud/state.jpeg");
+}
+.cards .rocket{
+    background-image: url("cloud/rlss.png");
+}
+.cards .cookie{
+    background-image: url("cloud/cookie.png");
+}
+.cards .pop{
+    background-image: url("cloud/pop.png");
+}
+.cards .plague{
+    background-image: url("cloud/plague.jpg");
+}
+.cards .vector{
+    background-image: url("cloud/vector.jpg");
+}
+.footer {
+    width: 100%;
+    position: static;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+}
+
+.footer .footer-text {
+    text-align: center;
+    color: #222222;
+    padding-bottom: 20px;
+}
